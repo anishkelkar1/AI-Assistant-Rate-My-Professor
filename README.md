@@ -1,1 +1,1 @@
-# RAG-Powered-AI-Assistant
+# AI-Assistant-Rate-My-Professor 
