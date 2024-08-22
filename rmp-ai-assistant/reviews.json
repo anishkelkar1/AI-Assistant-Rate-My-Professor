@@ -1,0 +1,124 @@
+{
+    "reviews": [
+        {
+            "professor": "Dr. Emily Johnson",
+            "subject": "Biology",
+            "stars": 4,
+            "review": "Dr. Johnson's lectures are engaging and well-structured. She explains complex concepts clearly."
+        },
+        {
+            "professor": "Prof. Michael Chen",
+            "subject": "Computer Science",
+            "stars": 5,
+            "review": "Brilliant professor! Makes programming fun and accessible. Always available for extra help."
+        },
+        {
+            "professor": "Dr. Sarah Williams",
+            "subject": "Psychology",
+            "stars": 3,
+            "review": "Knowledgeable but sometimes rushes through material. Office hours are helpful."
+        },
+        {
+            "professor": "Prof. David Brown",
+            "subject": "History",
+            "stars": 4,
+            "review": "Passionate about the subject. Assignments are challenging but fair."
+        },
+        {
+            "professor": "Dr. Lisa Martinez",
+            "subject": "Chemistry",
+            "stars": 5,
+            "review": "Excellent at breaking down complex theories. Lab sessions are well-organized."
+        },
+        {
+            "professor": "Prof. James Wilson",
+            "subject": "Economics",
+            "stars": 2,
+            "review": "Lectures can be dry. Grading is inconsistent and feedback is limited."
+        },
+        {
+            "professor": "Dr. Rachel Green",
+            "subject": "English Literature",
+            "stars": 4,
+            "review": "Insightful analysis of texts. Encourages class discussions effectively."
+        },
+        {
+            "professor": "Prof. Robert Taylor",
+            "subject": "Physics",
+            "stars": 3,
+            "review": "Knowledgeable but can be intimidating. Exams are very difficult."
+        },
+        {
+            "professor": "Dr. Amanda Lee",
+            "subject": "Sociology",
+            "stars": 5,
+            "review": "Engaging lecturer who relates theories to current events. Very approachable."
+        },
+        {
+            "professor": "Prof. Thomas Moore",
+            "subject": "Mathematics",
+            "stars": 4,
+            "review": "Clear explanations of complex math concepts. Homework is challenging but helpful."
+        },
+        {
+            "professor": "Dr. Karen White",
+            "subject": "Art History",
+            "stars": 5,
+            "review": "Passionate and knowledgeable. Field trips to museums enhance learning."
+        },
+        {
+            "professor": "Prof. Daniel Kim",
+            "subject": "Political Science",
+            "stars": 3,
+            "review": "Interesting course content but lectures can be disorganized."
+        },
+        {
+            "professor": "Dr. Jennifer Lopez",
+            "subject": "Environmental Science",
+            "stars": 4,
+            "review": "Brings real-world examples into class. Group projects are well-designed."
+        },
+        {
+            "professor": "Prof. Christopher Davis",
+            "subject": "Philosophy",
+            "stars": 5,
+            "review": "Thought-provoking lectures. Encourages critical thinking and debate."
+        },
+        {
+            "professor": "Dr. Michelle Thompson",
+            "subject": "Business Administration",
+            "stars": 2,
+            "review": "Seems disinterested in teaching. Relies too heavily on textbook material."
+        },
+        {
+            "professor": "Prof. William Harris",
+            "subject": "Mechanical Engineering",
+            "stars": 4,
+            "review": "Practical approach to teaching. Lab work is particularly valuable."
+        },
+        {
+            "professor": "Dr. Elizabeth Clark",
+            "subject": "Linguistics",
+            "stars": 5,
+            "review": "Extremely knowledgeable and approachable. Makes a complex subject accessible."
+        },
+        {
+            "professor": "Prof. Richard Adams",
+            "subject": "Music Theory",
+            "stars": 3,
+            "review": "Knows the subject well but can be impatient with slower learners."
+        },
+        {
+            "professor": "Dr. Laura Evans",
+            "subject": "Anthropology",
+            "stars": 4,
+            "review": "Fascinating lectures with lots of real-world examples. Fair grader."
+        },
+        {
+            "professor": "Prof. Steven Wright",
+            "subject": "Statistics",
+            "stars": 3,
+            "review": "Explains concepts clearly but assignments can be overly difficult."
+        }
+    ]
+}
