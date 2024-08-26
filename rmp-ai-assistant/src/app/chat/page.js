@@ -1,6 +1,7 @@
 'use client'
 import { AppBar, Avatar, Box, Button, Stack, Toolbar, TextField, CssBaseline, Typography } from '@mui/material'
 import { useState, useRef, useEffect } from 'react'
+import SendLink from '../components/link'
 
 export default function Chat() {
   const [messages, setMessages] = useState([
@@ -83,24 +84,26 @@ export default function Chat() {
         backgroundRepeat: 'no-repeat',
         minHeight: '100vh',
       }}
-      >
+    >
       <link
         rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
       />
-      <AppBar elevation={0} sx={{background:'none'}}>
+      <AppBar elevation={0} sx={{ background: 'none' }}>
         <Toolbar >
           <Typography variant="h4" ml={3} style={{ flexGrow: 1 }}
-          sx={{
-            fontWeight: 1000,
-            letterSpacing: 2,
-            fontFamily: 'Nunito, sans-serif',
-          }}
+            sx={{
+              fontWeight: 1000,
+              letterSpacing: 2,
+              fontFamily: 'Nunito, sans-serif',
+            }}
           >
             RMP
           </Typography>
         </Toolbar>
       </AppBar>
+
+      <SendLink setIsLoading={setIsLoading} setMessages={setMessages} />
       <Stack
         direction={'column'}
         width="85vw"
@@ -127,9 +130,9 @@ export default function Chat() {
               }
             >
               {message.role === 'assistant' && (
-              <Avatar
-                sx={{ mr: 1, mt: 1, width: 40, height: 40 }}
-              >R</Avatar>
+                <Avatar
+                  sx={{ mr: 1, mt: 1, width: 40, height: 40 }}
+                >R</Avatar>
               )}
               <Box
                 bgcolor={

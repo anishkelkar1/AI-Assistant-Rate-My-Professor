@@ -43,33 +43,49 @@ export default function SendLink({ setIsLoading, setMessages }) {
             ]);
         } finally {
             setIsLoading(false);
+            setLink('')
         }
     };
 
 
     return (
         <>
-            <Stack direction={'row'} spacing={2} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', p: 2, width: '50%', }}>
-                <TextField
-                    fullWidth
-                    label='Enter Rate My Professor URL'
-                    value={link}
-                    onChange={(e) => setLink(e.target.value)}
-                // onKeyDown={handleKeyPress}
+            <Box p={2}>
+
+                <Stack
+                    direction={'row'} spacing={2} bgcolor='#fff'
+                    sx={{
+                        display: 'flex',
+                        justifyContent: 'center',
+                        alignItems: 'center',
+                        p: 1,
+                        border: "1px solid black",
+                        borderRadius: "10px",
+                        width: "85vw"
+
+                    }}
                 >
-                </TextField>
-                <Box>
-                    <Button
-                        width
-                        variant="contained"
-                        onClick={sendURl}
+                    <TextField
+                        fullWidth
+                        label='Enter Rate My Professor URL'
+                        value={link}
+                        onChange={(e) => setLink(e.target.value)}
+                    // onKeyDown={handleKeyPress}
                     >
-                        Submit Url
-                    </Button >
+                    </TextField>
+                    <Box>
+                        <Button
+                            width
+                            variant="contained"
+                            onClick={sendURl}
+                        >
+                            Submit Url
+                        </Button >
 
-                </Box>
+                    </Box>
 
-            </Stack >
+                </Stack >
+            </Box>
         </>
 
     )
