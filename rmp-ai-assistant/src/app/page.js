@@ -1,6 +1,7 @@
 'use client'
 import { Box, Button, CssBaseline, AppBar,Toolbar, Typography } from '@mui/material'
 import { useState, useRef, useEffect } from 'react'
+import SendLink from '../app/components/link'
 
 export default function Home() {
   return(

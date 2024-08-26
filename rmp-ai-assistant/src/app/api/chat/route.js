@@ -35,7 +35,7 @@ export async function POST(req) {
         resultString += `
       Returned Results:
       Professor: ${match.id}
-      Review: ${match.metadata.stars}
+      Review: ${match.metadata.review}
       Subject: ${match.metadata.subject}
       Stars: ${match.metadata.stars}
       \n\n`
