@@ -12,6 +12,7 @@ export default function SendLink({ setIsLoading, setMessages }) {
     //     }
     // }
     const sendURl = async () => {
+        if (!link.trim()) return;
         setIsLoading(true);
         try {
             const response = await fetch("/api/link", {
